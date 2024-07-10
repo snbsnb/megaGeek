@@ -8,8 +8,7 @@
   ],
   "build": {
     "publish": {
-      "web": "templates",
-      "api": "api"
+      "web": "src/templates"
     }
   }
 }
