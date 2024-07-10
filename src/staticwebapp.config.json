@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "serve": "/",
+      "statusCode": 200
+    }
+  ],
+  "build": {
+    "publish": {
+      "web": "templates",
+      "api": "api" // Assuming you have APIs or functions in an 'api' folder
+    }
+  }
+}
