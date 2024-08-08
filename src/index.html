@@ -6,6 +6,36 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="./favicon-16x16.png" />
     <title>Resume</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        padding: 20px;
+        background-color: #f4f4f4;
+      }
+      .experience {
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .job-title {
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+      .company {
+        color: #555;
+      }
+      .location,
+      .duration {
+        color: #777;
+      }
+      .skills {
+        margin-top: 10px;
+        font-style: italic;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -23,9 +53,102 @@
     </section>
     <section>
       <h2>Professional Experience</h2>
-      <h3>Job Title - Company Name</h3>
-      <p>From Date - To Date</p>
-      <p>Job description and responsibilities.</p>
+
+      <div class="experience">
+        <div class="job-title">DevOps Consultant (Platform Engineering)</div>
+        <div class="company">Ensono · Full-time</div>
+        <div class="location">London Area, United Kingdom · Remote</div>
+        <div class="duration">Mar 2024 to Present · 6 mos</div>
+        <div class="skills">
+          Skills: Azure Kubernetes Service (AKS), Test Automation, +3 skills
+        </div>
+      </div>
+
+      <div class="experience">
+        <div class="job-title">Senior System Engineer (DevOps)</div>
+        <div class="company">EPAM Systems · Full-time</div>
+        <div class="location">Newcastle upon Tyne, England, United Kingdom</div>
+        <div class="duration">Dec 2021 to Apr 2024 · 2 yrs 5 mos</div>
+        <div class="skills">Skills: Terratest, API Testing, +12 skills</div>
+      </div>
+
+      <div class="experience">
+        <div class="job-title">DevOps Engineer</div>
+        <div class="company">Hive HR · Full-time</div>
+        <div class="location">Newcastle upon Tyne, England, United Kingdom</div>
+        <div class="duration">May 2021 to Dec 2021 · 8 mos</div>
+        <div class="skills">
+          <ul>
+            <li>Micro-services Ecosystem Management</li>
+            <li>Docker Container + DockerFile Generation</li>
+            <li>Supporting Node.js applications</li>
+            <li>
+              AWS (ECS, EC2, Lambda, Batch, CloudWatch, ELK Stack, S3, VPC, CLI)
+            </li>
+            <li>SRE (Auto-Scaling, Rollbacks, Alarm Response)</li>
+            <li>Linux (VI, Scripting)</li>
+            <li>GitHub + GitHub Actions</li>
+            <li>CI/CD Pipelines using Buildkite</li>
+            <li>Terraform (State Management/Migrations, Refactoring)</li>
+            <li>
+              CloudWatch Monitoring Solution (Python + Lambda + CloudWatch)
+            </li>
+            <li>JIRA + Ticket Management</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="experience">
+        <div class="job-title">DevOps Engineer</div>
+        <div class="company">Avanade · Full-time</div>
+        <div class="location">Newcastle upon Tyne, United Kingdom</div>
+        <div class="duration">Feb 2020 to Mar 2021 · 1 yr 2 mos</div>
+        <div class="skills">
+          <ul>
+            <li>
+              Focus on Application Development, Infrastructure as Code and
+              Automation Engineering
+            </li>
+            <li>
+              Developing and maintenance of Terraform Templates for continuous
+              integration to client's Azure cloud computing environments
+              (Test/Development)
+            </li>
+            <li>
+              Development of Azure Functions to automate ticket alerting systems
+            </li>
+            <li>
+              Scripting of PowerShell/Python solution for the following:
+              <ul>
+                <li>Automate monitoring and alerting</li>
+                <li>Manage and maintain systems</li>
+                <li>
+                  Automate Azure DevOps tasks (e.g. Runbook upload to storage
+                  account, key vault SAS token generation)
+                </li>
+              </ul>
+            </li>
+            <li>
+              Configuration of PowerShell DSC deployments to initiate servers
+              with client requirements
+            </li>
+            <li>Troubleshooting application/DevOps/Infrastructure solutions</li>
+            <li>
+              End to end solution authoring (Infrastructure, Code, Deployment,
+              Maintenance) of key client environments
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="experience">
+        <div class="job-title">Cyber Security Analyst</div>
+        <div class="company">Aviva</div>
+        <div class="location">
+          Norwich, Bristol, London, Perth, Bishopbriggs
+        </div>
+        <div class="duration">Aug 2018 to Sep 2019 · 1 yr 2 mos</div>
+      </div>
     </section>
     <section>
       <h2>Education</h2>
